@@ -16,6 +16,7 @@ function PicturesSlider() {
     }
     fetchData();
   }, [page]);
+  console.log(datas);
 
   return (
     <div className={styles.div}>
@@ -31,6 +32,10 @@ function PicturesSlider() {
           >
             prev
           </button>
+          <div className={styles.img_desc}>
+            <span>{datas[page]?.slug}</span>
+          </div>
+
           <button
             className={styles.btns}
             onClick={() =>
