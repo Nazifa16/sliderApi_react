@@ -1,0 +1,35 @@
+.div {
+}
+
+.img {
+  width: 50%;
+  max-width: 18.75rem;
+  height: 18.75rem;
+}
+
+.img_div {
+  width: 50%;
+  background: rgb(158, 192, 191);
+  height: 18.75rem;
+  border-radius: 4px;
+}
+
+.btns {
+  background: rgba(90, 214, 90, 0.592);
+  border: none;
+  border-radius: 4px;
+  padding: 10px 30px 10px 30px;
+  color: rgb(25, 76, 25);
+}
+
+.btns:hover {
+  background: rgba(62, 219, 83, 0.393);
+  cursor: pointer;
+  color: rgb(85, 126, 51);
+}
+
+.btns_div {
+  display: flex;
+  gap: 1rem;
+  margin-top: 30px;
+}
